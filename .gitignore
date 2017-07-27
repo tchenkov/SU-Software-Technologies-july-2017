@@ -1,3 +1,5 @@
 *.rar
 ~$*
 .idea/
+!Calculator.rar
+!Blog.rar
