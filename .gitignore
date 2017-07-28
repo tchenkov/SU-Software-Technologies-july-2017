@@ -1,5 +1,6 @@
 *.rar
 ~$*
+.~lock*
 .idea/
 !Calculator.rar
 !Blog.rar
