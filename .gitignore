@@ -3,6 +3,6 @@
 .~lock*
 .idea/
 out/
-/10. JavaScript Blog Basic Functionality/node_modules/
+node_modules/
 !Calculator.rar
 !Blog.rar
