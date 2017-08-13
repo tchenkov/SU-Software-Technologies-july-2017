@@ -3,14 +3,14 @@
         <div class="form-group">
             <div class="col-sm-1 ">
                 <input type="text" class="form-control" id="leftOperand" placeholder="Left Operand"
-                       name="leftOperand" th:value="${leftOperand}"/>
+                       title="leftOperand" th:value="${leftOperand}"/>
             </div>
         </div>
 
 
         <div class="form-group">
             <div class="col-sm-4 ">
-                <select class="form-control" name="operator">
+                <select class="form-control" title="operator">
                     <option value="+" th:selected="${operator.equals('+')}">+</option>
                     <option value="-" th:selected="${operator.equals('-')}">-</option>
                     <option value="*" th:selected="${operator.equals('*')}">*</option>
@@ -22,7 +22,7 @@
         <div class="form-group">
             <div class="col-sm-4 ">
                 <input type="text" class="form-control" id="rightOperand" placeholder="Right Operand"
-                       name="rightOperand" th:value="${rightOperand}"/>
+                       title="rightOperand" th:value="${rightOperand}"/>
             </div>
         </div>
 
@@ -35,7 +35,7 @@
         <div class="form-group">
             <div class="col-sm-4 ">
                 <input type="text" class="form-control" id="result" placeholder="Result"
-                       name="result" th:value="${result}"/>
+                       title="result" th:value="${result}"/>
             </div>
         </div>
 
